@@ -297,6 +297,7 @@ def displayTrace(solution):
 
     for move in trace:
         display(move)
+        print("\n")
     print("Solved in " + str(depth) + " steps.")
 
         
